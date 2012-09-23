@@ -1,18 +1,18 @@
 #!/usr/bin/env python
 # coding: utf-8
 from setuptools import setup, find_packages
-from pip_github_test import *
+from pip_github_test import __author__, __version__, __license__
 
 setup(
-        name             = __name__,
+        name             = 'pip_github_test',
         version          = __version__,
-        description      = __description__,
+        description      = 'Sample for installing python library from github using pip',
         license          = __license__,
         author           = __author__,
-        author_email     = __author_email__,
-        url              = __url__,
-        keywords         = __keywords__,
+        author_email     = 'junion@junion.org',
+        url              = 'https://github.com/junion-org/pip_github_test.git',
+        keywords         = 'sample pip github python',
         packages         = find_packages(),
-        install_requires = __install_requires__,
+        install_requires = [],
         )
 
